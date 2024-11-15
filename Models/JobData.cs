@@ -2,6 +2,6 @@
 
 public class JobData
 {
-    private int jobId   { get; set; }
-    private int postingId   { get; set; }
+    public int jobId   { get; set; }
+    public int postingId   { get; set; }
 }

@@ -2,8 +2,37 @@
     ViewData["Title"] = "MyOrders";
 }
 
-@model BasicWebApp.Models.Order
+@model List<Order>
 
+<div class="text-center">
+    <p class="fs-1">My orders</p>
+</div>
 <div>
-    
+    <table class="table">
+        <thead>
+        <th scope="col">
+            Order ID
+        </th>
+        <th scope="col">
+            Net Price
+        </th>
+        </thead>
+        <tbody>
+        <tr>
+            @{
+            foreach (var order in Model)
+            {
+                <tr>
+                <td>
+                    @order.id
+                </td>
+                <td>
+                    @order.
+                </td>
+            </tr>
+        }
+        }
+        </tr>
+        </tbody>
+    </table>
 </div>

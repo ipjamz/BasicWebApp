@@ -28,3 +28,6 @@ E:\Documents\RiderProjects\BasicWebApp\BasicWebApp\obj\Debug\net8.0\refint\Basic
 E:\Documents\RiderProjects\BasicWebApp\BasicWebApp\obj\Debug\net8.0\BasicWebApp.pdb
 E:\Documents\RiderProjects\BasicWebApp\BasicWebApp\obj\Debug\net8.0\BasicWebApp.genruntimeconfig.cache
 E:\Documents\RiderProjects\BasicWebApp\BasicWebApp\obj\Debug\net8.0\ref\BasicWebApp.dll
+E:\Documents\RiderProjects\BasicWebApp\BasicWebApp\obj\Debug\net8.0\BasicWebApp.sourcelink.json
+E:\Documents\RiderProjects\BasicWebApp\BasicWebApp\bin\Debug\net8.0\orders.json
+E:\Documents\RiderProjects\BasicWebApp\BasicWebApp\bin\Debug\net8.0\products.json

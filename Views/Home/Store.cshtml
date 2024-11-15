@@ -2,8 +2,36 @@
     ViewData["Title"] = "Store";
 }
 
-@model BasicWebApp.Models.Product
+@model List<Product>
 
+<div class="text-center">
+    <p class="fs-1">Store</p>
+    <p class="fs-3">Products</p>
+</div>
 <div>
-    
+    <table class="table">
+        <thead>
+        <th scope="col">
+            Product Name
+        </th>
+        <th scope="col">
+            Product Price
+        </th>
+        </thead>
+        <tbody>
+        @{
+            foreach (var product in Model)
+            {
+                <tr>
+                    <td>
+                        @product.product_name
+                    </td>
+                    <td>
+                        @product.cost
+                    </td>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
 </div>

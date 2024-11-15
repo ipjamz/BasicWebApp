@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using BasicWebApp.Models;
 
@@ -20,11 +21,25 @@ public class HomeController : Controller
 
     public IActionResult Store()
     {
+        var jsonString = System.IO.File.ReadAllText("products.json");
+        var products = JsonSerializer.Deserialize<List<Product>>(jsonString);
+
+        if (products != null)
+        {
+            return View(products);
+        }
         return View();
     }
     
     public IActionResult MyOrders()
     {
+        var jsonString = System.IO.File.ReadAllText("orders.json");
+        var orders = JsonSerializer.Deserialize<List<Order>>(jsonString);
+
+        if (orders != null)
+        {
+            return View(orders);
+        }
         return View();
     }
 

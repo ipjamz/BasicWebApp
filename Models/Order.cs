@@ -1,17 +1,17 @@
 ﻿namespace BasicWebApp.Models;
 
 public class Order
-{
-     private int id { get; set; }
-     private string status { get; set; }
-     private string paymenthMethod { get; set; }
-     private string recruiterId { get; set; }
-     private string divisionId { get; set; }
-     private string companyId { get; set; }
-     private string validated { get; set; }
-     private string created { get; set; }
-     private string completed { get; set; }
-     private Item[] items { get; set; }
+{ 
+      public int id { get; set; }
+      public string status { get; set; }
+      public string paymenthMethod { get; set; }
+      public string recruiterId { get; set; }
+      public string divisionId { get; set; }
+      public string companyId { get; set; }
+      public string validated { get; set; }
+      public string created { get; set; }
+      public string completed { get; set; } 
+      public Item[] items { get; set; }
 }
 
 
