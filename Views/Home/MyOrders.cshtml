@@ -5,7 +5,7 @@
 @model List<Order>
 
 <div class="text-center">
-    <p class="fs-1">My orders</p>
+    <p class="fs-1">My Orders</p>
 </div>
 <div>
     <table class="table">
@@ -18,21 +18,26 @@
         </th>
         </thead>
         <tbody>
-        <tr>
-            @{
+        @{
             foreach (var order in Model)
             {
                 <tr>
-                <td>
-                    @order.id
-                </td>
-                <td>
-                    @order.
-                </td>
-            </tr>
+                    <td>
+                        @order.id
+                    </td>
+                    <td>
+                    @{
+                        foreach (var item in order.items)
+                        {
+                            
+                                @item.netCost
+                                <br />
+                        }
+                    }
+                    </td>
+                </tr>
+            }
         }
-        }
-        </tr>
         </tbody>
     </table>
 </div>
