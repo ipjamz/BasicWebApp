@@ -24,11 +24,7 @@ public class HomeController : Controller
         var jsonString = System.IO.File.ReadAllText("products.json");
         var products = JsonSerializer.Deserialize<List<Product>>(jsonString);
 
-        if (products != null)
-        {
-            return View(products);
-        }
-        return View();
+        return products != null ? View(products) : View();
     }
     
     public IActionResult MyOrders()
@@ -36,11 +32,7 @@ public class HomeController : Controller
         var jsonString = System.IO.File.ReadAllText("orders.json");
         var orders = JsonSerializer.Deserialize<List<Order>>(jsonString);
 
-        if (orders != null)
-        {
-            return View(orders);
-        }
-        return View();
+        return orders != null ? View(orders) : View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
