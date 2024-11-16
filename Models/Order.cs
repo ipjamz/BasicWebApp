@@ -11,7 +11,7 @@ public class Order
       public bool validated { get; set; }
       public string created { get; set; }
       public string? completed { get; set; } 
-      public Item[] items { get; set; }
+      public List<Item> items { get; set; }
 }
 
 
