@@ -6,7 +6,7 @@ Prerequisite:
 .NET 8 SDK https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.404-windows-x64-installer
 
 Installation:
-1. Download the repository as zip file.
+1. Download the repository as zip file (BasicWebApp-master).
 2. Extract the file.
 3. Open the folder BasicWebApp-master (Make sure you are in the inner folder).
 4. Open run.cmd.
