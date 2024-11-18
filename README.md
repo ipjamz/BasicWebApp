@@ -10,13 +10,17 @@ Installation:
 2. Extract the file.
 3. Open the folder BasicWebApp-master (Make sure you are in the inner folder).
 4. Open run.cmd.
-   
-  ![run](https://github.com/user-attachments/assets/c3edbcd0-f015-42c0-a19d-8889a5fdaad0)
 
-7. If this happens:
+   ![run](https://github.com/user-attachments/assets/c3edbcd0-f015-42c0-a19d-8889a5fdaad0)
 
-  ![image](https://github.com/user-attachments/assets/5b835237-2f1d-4a43-a9e7-9e08a22ebfde)
-  
-  Click More info and Run anyway.
+5. If this happens:
+
+   ![image](https://github.com/user-attachments/assets/5b835237-2f1d-4a43-a9e7-9e08a22ebfde)
+
+   Click More info and Run anyway.
+
+6. Wait for it to finish building and running.
+
+   ![image](https://github.com/user-attachments/assets/5249a933-1e60-4007-85ec-6c73ab7b8783)
 
 7. Go to the link http://localhost:5001.
