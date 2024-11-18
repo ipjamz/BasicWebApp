@@ -19,7 +19,7 @@ Installation:
 
    Click More info and Run anyway.
 
-6. Wait for it to finish building and running.
+6. Wait for it to finish building and running (Do not close it).
 
    ![image](https://github.com/user-attachments/assets/5249a933-1e60-4007-85ec-6c73ab7b8783)
 
