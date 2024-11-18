@@ -3,7 +3,7 @@ Name: BasicWebApp
 Description: Application using .NET 8 showing HomePage, Store and My Orders.
 
 Prerequisite: 
-.NET 8 Runtime <https://dotnet.microsoft.com/en-us/download/dotnet/8.0>
+.NET 8 SDK https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.404-windows-x64-installer
 
 Installation:
 1. Download the repository as zip file.
